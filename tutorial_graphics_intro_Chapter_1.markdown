@@ -1,4 +1,4 @@
-# Chapter 1: Intro to Hardware and Game programming for the GBA
+# Chapter 1: Intro to Hardware and programming for the GBA
 
 This is a tutorial series introducing hacking the GBA using the C programming language. In this introductionary chapter, I assume the reader knows the C language to an acceptable threshold and has previous experience programming on the GBA either with C or ASM. This chapter is about learning roughly about the technical aspects of the GBA, but not to the point of a resource document like GBATEK or Cowbite would be. Our goal for the first chapter is establishing a base foundation inorder to be able to do some of the cooler things in later chapters.
 
