@@ -30,7 +30,7 @@ You'll notice in the image, on the Scanline, after the first 240 pixels there is
 
 Moving on past the 160th Scanline, we reach another pause area labeled the "VBlank". Exactly like the Hblank, the **VBlank** is a pause which the display controller does before moving on to the top-most Scanline. The VBlank extends for exactly 68 Scanlines, which makes it last significantly longer than the HBlank (recall that a scanline contains the Hblank in it). However, the Vblank, unlike the HBlank, has a very unique and useful timing. By being at the bottom of the screen, it occurs exactly after the contents of the entire screen has been drawn and the additional pause length makes it an ideal position for configuring graphics data. For example, imagine if we had a picture of a ball moving across the screen, like this:
 >
-> ![img](http://k03.kn3.net/3857C867C.gif)
+> ![img](images/ball.gif)
 >
  
 Imagine if we changed the position of this ball during the middle of a scanline, not during the VBlank. The ball's shape would become distorted and we'd get something that looked like this:
